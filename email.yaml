@@ -1,0 +1,15 @@
+---
+- name: Email Test
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+   - name: Sending notification email
+     mail:
+       host: mail.advancemags.com
+       port: 25
+       from: US-Ansible-server-built@condenast.com
+       to: sivakumar_rajendran@condenast.com
+       subject: US AWS Ansible-Server build report
+       body: Hi Team the server Testmail has been provisioned successfully.
+     delegate_to: localhost
