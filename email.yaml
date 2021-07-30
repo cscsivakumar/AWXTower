@@ -2,11 +2,11 @@
 - name: Email Test
   hosts: localhost
   gather_facts: no
-
   tasks:
    - name: Sending notification email
      mail:
-       host: mail.advancemags.com
+       #host: mail.advancemags.com
+       host: localhost
        port: 25
        from: US-Ansible-server-built@condenast.com
        to: sivakumar_rajendran@condenast.com
