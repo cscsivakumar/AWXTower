@@ -12,6 +12,7 @@
        to: sivakumar_rajendran@condenast.com
        subject: US AWS Ansible-Server build report
        body: Hi Team the server Testmail has been provisioned successfully.
+       secure: never
      delegate_to: localhost
 
      
