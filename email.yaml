@@ -5,10 +5,10 @@
   tasks:
    - name: Sending notification email
      mail:
-       host: smtp.gmail.com
+       host: smtp.outlook.com
        port: 587
-       username: cscsivakumar@gmail.com
-       password: Solutions@123
+       username: sivabgl@outlook.com
+       password: Nivin@7615
        to: sivakumar_rajendran@condenast.com
        subject: US AWS Ansible-Server build report
        body: Hi Team the server Testmail has been provisioned successfully.
